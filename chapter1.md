@@ -1,3 +1,8 @@
-# First Chapter
+# Урок 1. Введение в синтаксис
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+Если вы не знаете, как и где исполнять код, обратитесь к разделу Где работать.
+
+
+
+.
+
