@@ -7,5 +7,5 @@
   * 1.3 Функции
   * 1.4 Условные операторы
   * 1.5 Циклы
-  * [1 Вопросы и задачи урока](chapter1/1-voprosi-i-zadachi-uroka.md)
+  * [1 Примеры и задачи урока](chapter1/1-voprosi-i-zadachi-uroka.md)
 
