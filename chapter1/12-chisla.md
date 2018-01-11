@@ -129,6 +129,7 @@ print(x)    # 210624583337114373395836055367340864637790190801098222508621955072
 Примеры:
 
 | Выражение | Результат |
+|---|---|
 | int(1.7) | 1 |
 | int(-1.7) | -1 |
 | ceil(4.2) | 5 |
@@ -150,6 +151,36 @@ round(2.85, 1)   # 2.9
 ```
 подробнее:
 [Floating Point Arithmetic: Issues and Limitations](https://docs.python.org/3/tutorial/floatingpoint.html#tut-fp-issues)
+
+### Бесконечность и NaN (not a number)
+
+Создаем бесконечность, отрицательную бесконечность и NaN
+
+```python
+>>> a = float('inf')
+>>> b = float('-inf')
+>>> c = float('nan')
+>>> a
+inf
+>>> b
+-inf
+>>> c
+nan
+>>>
+```
+
+Проверяем эти особые значения функциями **math.isinf()** и **math.isnan()**
+
+```python
+>>> math.isinf(a)
+True
+>>> math.isnan(c)
+True
+>>>
+
+```
+
+
 
 ### complex
 Для представления комплесных чисел есть встроенный тип complex. Мнимая единица обозначается как j или J.
