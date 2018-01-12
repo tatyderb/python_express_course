@@ -45,5 +45,5 @@ Notebook - в них будем писать математические про
 После него обязательно читать Саммерфилда. Или в параллель читать Think Python, ибо некоторые предлагаемые конструкции не python-way.
 
 * Что читать дальше
-  * **Марк Саммерфилд Python in Practice*** - паттерны ООП на питоне
+  * **Марк Саммерфилд Python in Practice** - паттерны ООП на питоне
   * [Python 3 patterns, recipes and idioms](/http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html)
