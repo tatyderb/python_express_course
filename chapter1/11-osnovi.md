@@ -16,6 +16,27 @@ print(type(x))   # <class 'str'>
 ```
 int, float, str, bool, complex - встроенные типы данных языка. Они **unmutable** (неизменяемые). (Только неизменяемые данные могут быть ключами в словаре).
 
+### None - этого не может быть
+
+```python
+>>> x = None
+>>> x
+>>> print(x)
+None
+>>> type(x)
+<class 'NoneType'>
+>>> x is None
+True
+>>> 12 is not None    # проверка, что это не None (PEP-8)
+True
+>>> not 12 is None    # тоже работает, но PEP-8 это не одобряет
+True
+>>> x == None   
+True
+>>> x != None
+False
+```
+
 ## Идентификаторы
 
 Описаны в PEP 3131
