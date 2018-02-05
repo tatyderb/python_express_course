@@ -8,4 +8,7 @@
   * [1.4 Условные операторы](chapter1/14-uslovnie-operatori.md)
   * [1.5 Циклы](chapter1/15-tsikli.md)
   * [1 Примеры и задачи урока](chapter1/1-voprosi-i-zadachi-uroka.md)
+* [Урок 2. Коллекции](13-urok-2-kollektsii.md)
+  * Последовательности
+* [Исключения](posledovatelnosti.md)
 
