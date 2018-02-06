@@ -15,5 +15,5 @@
   * [Итераторы](chapter_generators/1-iterators.md)
   * [Генераторы](chapter_generators/2-function-generators.md)
   * [Функциональное программирование](chapter_generators/3-map.md)
-  * [Примеры и задачи урока](chapter_generators/task_generators.md)
+  * [Примеры и задачи урока](chapter_generators/tasks_generators.md)
 
