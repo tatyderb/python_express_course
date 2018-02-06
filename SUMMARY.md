@@ -10,5 +10,10 @@
   * [1 Примеры и задачи урока](chapter1/1-voprosi-i-zadachi-uroka.md)
 * [Урок 2. Коллекции](13-urok-2-kollektsii.md)
   * Последовательности
-* [Исключения](posledovatelnosti.md)
+* [Урок 3. Исключения](posledovatelnosti.md)
+* [Урок 10. Генераторы](chapter_generators/README.md)
+  * [Итераторы](chapter_generators/1-iterators.md)
+  * [Генераторы](chapter_generators/2-function-generators.md)
+  * [Функциональное программирование](chapter_generators/3-map.md)
+  * [Примеры и задачи урока](chapter_generators/task_generators.md)
 
