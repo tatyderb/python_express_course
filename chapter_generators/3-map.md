@@ -6,7 +6,7 @@
 
 ### map\(\) - применить функцию ко всем элементам списка
 
-**map**\(_function_to_apply_, _list_of_inputs_\) - применить функцию _function_to_apply_ ко всем элементам списка _list_of_inputs_
+**map**\(_function_to_apply_, _iterable_, _...\) - применяет функцию _function_to_apply_ ко всем элементам последовательности _iterable_. Если заданы дополнительные аргументы (последовательности), то функция _function_to_apply_ должна принимать столько аргументов, сколько последовательностей переданно далее в map.
 
 ```python
 a = map(int, input().split())  # 3 14 27 -1
@@ -54,6 +54,26 @@ map:
 ```python
 items = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, items))
+```
+
+#### map - пример: задаем числа и их степени
+
+Возведем числа из списка в степени, которые тоже заданы списком
+
+Обычная функция:
+```python
+items = [10, 2, 3, 4]
+n     = [ 3, 1, 2, 0]
+res = []
+for i, x in enumerate(items):
+    res.append(x**n[i]))
+```
+
+map:
+```python
+items = [10, 2, 3, 4]
+n     = [ 3, 1, 2, 0]
+res = list(map((lambda x, i: x**i), items, n))
 ```
 
 #### map - список входных данных может быть списком функций
