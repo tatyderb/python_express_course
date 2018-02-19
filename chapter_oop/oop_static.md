@@ -39,7 +39,7 @@ d = Circle()
 print(
 ```
 
-## методы класса
+## методы класса и статические методы
 
 
 **@classmethod можно переопределить в наследнике класса**
@@ -47,16 +47,35 @@ print(
 У метода класса есть **cls**, но нет **self**
 
 
-
-## static методы
-
 **@staticmethod нельзя переопределить при наследовании классов**
 
-## функции класса
+```python
+class Date(object):
 
-Раньше (2.6) это называлось unbounded function.
+    def __init__(self, day=0, month=0, year=0):
+        self.day = day
+        self.month = month
+        self.year = year
 
-Фукнция класса, у которой нет ни cls, ни self аргумента. Обычная функция.
+    @classmethod
+    def from_string(cls, date_as_string):
+        day, month, year = map(int, date_as_string.split('-'))
+        date1 = cls(day, month, year)
+        return date1
+
+    @staticmethod
+    def is_date_valid(date_as_string):
+        day, month, year = map(int, date_as_string.split('-'))
+        return day <= 31 and month <= 12 and year <= 3999
+
+date2 = Date.from_string('11-09-2012')
+is_date = Date.is_date_valid('11-09-2012')
+```
+
+## Пример static factory
+
+Допустим, у нас должно быть не более 1 экземпляра данного класса.
+
 
 ## Когда какой метод делаем?
 
