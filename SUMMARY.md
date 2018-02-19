@@ -18,14 +18,16 @@
   * [Примеры и задачи урока](chapter_generators/tasks_generators.md)
 * [Тема 11. Объектно-ориентированное программирование](chapter_oop/README.md)
   * [Термины. Создание классов](chapter_oop/oop_terms.md)
-  * [Ограничение прав доступа](chapter_oop/oop_encapsulation) - Лутц гл 30 (Псевдочастные имена \_x. Искажения \_\_x.) @property
+  * [Ограничение прав доступа](chapter_oop/oop_encapsulation.md) - Лутц гл 30 (Псевдочастные имена \_x. Искажения \_\_x.)
   * [Атрибуты и методы класса. Статические методы](chapter_oop/oop_static.md)
   * [Наследование и полиморфизм](chapter_oop/oop_inheritance.md)
   * [Области видимости и пространства имен](chapter_oop/oop_names.md) - 
   * [Перегрузка операторов](chapter_oop/oop_override.md) - Лутц, гл.29
-* Тема 12. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
+* [Тема 12. ООП подробнее](chapter_oop_advanced/README.md)
+  * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
+* Тема 13. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
 * Ассорти
-  * format
+  * [format](https://pyformat.info/)
 
   
 
