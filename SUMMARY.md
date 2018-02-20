@@ -23,6 +23,7 @@
   * [Наследование и полиморфизм](chapter_oop/oop_inheritance.md)
   * [Области видимости и пространства имен](chapter_oop/oop_names.md) - 
   * [Перегрузка операторов](chapter_oop/oop_override.md) - Лутц, гл.29
+  * [Задачи](chapter_oop/oop_tasks.md)
 * [Тема 12. ООП подробнее](chapter_oop_advanced/README.md)
   * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
 * Тема 13. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
