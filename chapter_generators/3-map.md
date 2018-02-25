@@ -153,7 +153,7 @@ reduce(lambda res, x: res*x, [], 1)    # 1
 
 ### sum - сумма элементов списка
 
-### all - все True
+### all
 
 **all**(iterable) - возвращает True если все элементы в iterable истины (или этот iterable пустой). 
 То же самое, что:
@@ -165,7 +165,7 @@ def all(iterable):
     return True
 ```
 
-### any - все True
+### any
 
 **any**(iterable) - возвращает True если хоть один элемент в iterable истин (если этот iterable пустой, возвращается False). 
 То же самое, что:
