@@ -5,7 +5,7 @@
   * [1.1 Основы](chapter1/11-osnovi.md)
   * [1.2 Числа](chapter1/12-chisla.md)
   * [1.3 Функции](chapter1/13-funktsii.md)
-    * [1.3.0 Локальные и глобальные переменные](chapter1/13-0-local-global.md)
+    * [1.3.0 Локальные и глобальные переменные](chapter1/13-0-func-local-global.md)
     * [1.3.1 Функции - области видимости](chapter1/13-1-func-namespace.md)
     * [1.3.2 Лямбда-фукции](chapter1/13-1-func-lambda.md)
   * [1.4 Условные операторы](chapter1/14-uslovnie-operatori.md)
