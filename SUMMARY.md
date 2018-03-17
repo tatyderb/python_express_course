@@ -11,9 +11,17 @@
   * [1.4 Условные операторы](chapter1/14-uslovnie-operatori.md)
   * [1.5 Циклы](chapter1/15-tsikli.md)
   * [1 Примеры и задачи урока](chapter1/1-voprosi-i-zadachi-uroka.md)
-* [Тема 2. Коллекции](13-urok-2-kollektsii.md)
-  * Последовательности
-* [Тема 3. Исключения](posledovatelnosti.md)
+* [Тема 2. Коллекции](chapter_seq/README.md)
+  * [Последовательности](chapter_seq/1_seq.md)
+  * [Строки](chapter_seq/2_str.md)
+  * [Списки](chapter_seq/3_list.md)
+  * [Кортежи](chapter_seq/4_tuple.md)
+  * [Множества](chapter_seq/5_set.md)
+  * [Словари](chapter_seq/6_dict.md)
+  * [Сортировка](chapter_seq/7_sort.md)
+* Тема 3. Исключения
+* Тема 4. Файлы
+* Тема 5. Пакеты и модули
 * [Тема 10. Генераторы](chapter_generators/README.md)
   * [Итераторы](chapter_generators/1-iterators.md)
   * [Генераторы](chapter_generators/2-function-generators.md)
@@ -32,6 +40,7 @@
 * Тема 13. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
 * Ассорти
   * [format](https://pyformat.info/)
+  * [PEP-8](https://www.python.org/dev/peps/pep-0008/) [RU](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
 
   
 
