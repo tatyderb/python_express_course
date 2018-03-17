@@ -1,7 +1,7 @@
-# Строки
+# РЎС‚СЂРѕРєРё
 
-## Строковые типы
+## РЎС‚СЂРѕРєРѕРІС‹Рµ С‚РёРїС‹
 
 * [bytearray](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytearray)
-* [bytes](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytes) (НЕизменяемое)
-* [str](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#text-sequence-type-str) (НЕизменяемое)
+* [bytes](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytes) (РќР•РёР·РјРµРЅСЏРµРјРѕРµ)
+* [str](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#text-sequence-type-str) (РќР•РёР·РјРµРЅСЏРµРјРѕРµ)
