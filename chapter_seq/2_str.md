@@ -2,9 +2,9 @@
 
 ## Строковые типы
 
-* [bytearray](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytearray)
-* [bytes](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytes) (НЕизменяемое)
-* [str](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#text-sequence-type-str) (НЕизменяемое)
+* [str](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#text-sequence-type-str) (НЕизменяемое) - строки юникода
+* [bytes](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytes) (НЕизменяемое) - для представления двоичных данных (в том числе кодированный текст)
+* [bytearray](https://docs.python.org/3/library/stdtypes.html?highlight=bytearray#bytearray) (изменяемый bytes) - последовательности 8-битных целых чисел. Однако они поддерживают большую часть строковых операций и при отображении выводятся как строки символов ASCII. Объекты этого типа обеспечивают возможность хранения больших объемов текста, который требуется изменять достаточно часто.
 
 ## Как задаются строки
 
@@ -16,6 +16,7 @@
 * 'C:\\\\new\\\\text.dat' - escape-последовательности \\n, \\t, \\r
 * r'C:\\new\\text.dat' - экранирует escape-последовательности (сделано, чтобы удобно было писать regexp)
 * u'Unicode string' - строка юникода
+* str(...) - строка
 
 ## Методы строки
 
@@ -70,7 +71,7 @@ True
 >>> 'el' in 'Hello'
 True
 ```
-*   Проверки:
+*   Проверки (строка непустая и _все_ символы удовлетворяют критерию):
     * str.**isalnum**()
     * str.**isalpha**()
     * str.**isdecimal**()
