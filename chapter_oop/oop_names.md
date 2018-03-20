@@ -20,14 +20,14 @@
 Расширение:
 ```python
 >>> class Super:
-... def method(self):
-... print('in Super.method')
+... 	def method(self):
+... 		print('in Super.method')
 ...
 >>> class Sub(Super):
-... def method(self):           # Переопределить метод
-... print('starting Sub.method')# Дополнительное действие
-... Super.method(self)          # Выполнить действие по умолчанию
-... print(ending Sub.method')
+... 	def method(self):           		# Переопределить метод
+... 		print('starting Sub.method')	# Дополнительное действие
+... 		Super.method(self)          	# Выполнить действие по умолчанию
+... 		print(ending Sub.method')
 ```
 
 ## Взаимодействие классов при наследовании
@@ -107,7 +107,7 @@ class Super:
     def delegate(self):
         self.action()
     def action(self):
-    assert False, 'action must be defined!' # При вызове этой версии
+		assert False, 'action must be defined!' # При вызове этой версии
     
 >>> X = Super()
 >>> X.delegate()
@@ -137,7 +137,7 @@ NotImplementedError: action must be defined!
 до тех пор, пока не реализуем: 
 ```python
 >>> class Sub(Super):
-... def action(self): print('Реализация тут')
+... 	def action(self): print('Реализация тут')
 ...
 >>> X = Sub()
 >>> X.delegate()
