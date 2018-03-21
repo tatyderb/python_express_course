@@ -256,9 +256,13 @@ False
 ```python
 a = []
 if a:
-    print('Empty list')
+    print('NON-empty list')
 else:
-    print('Non-empty list')
+    print('Empty list')
+```
+
+```python
+if not a:   # поверка, что лист ПУСТОЙ
 ```
 
 ## split и join
