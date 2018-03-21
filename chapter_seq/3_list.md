@@ -249,6 +249,18 @@ True
 False
 ```
 
+### Проверить, что список пустой
+
+`bool(a)` возвращает False, если a пустой список. Иначе он возвращает True.
+
+```python
+a = []
+if a:
+    print('Empty list')
+else:
+    print('Non-empty list')
+```
+
 ## split и join
 
 См. [строки](2_str.md)
