@@ -7,7 +7,7 @@
   * [1.3 Функции](chapter1/13-funktsii.md)
     * [1.3.0 Локальные и глобальные переменные](chapter1/13-0-func-local-global.md)
     * [1.3.1 Функции - области видимости](chapter1/13-1-func-namespace.md)
-    * [1.3.2 Лямбда-фукции](chapter1/13-1-func-lambda.md)
+    * [1.3.2 Лямбда-фукции](chapter1/13-2-func-lambda.md)
   * [1.4 Условные операторы](chapter1/14-uslovnie-operatori.md)
   * [1.5 Циклы](chapter1/15-tsikli.md)
   * [1 Примеры и задачи урока](chapter1/1-voprosi-i-zadachi-uroka.md)
