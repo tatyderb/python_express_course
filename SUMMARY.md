@@ -19,6 +19,7 @@
   * [Множества](chapter_seq/5_set.md)
   * [Словари](chapter_seq/6_dict.md)
   * [Сортировка](chapter_seq/7_sort.md)
+  * [Задачи](chapter_seq/seq_tasks.md)
 * Тема 3. Исключения
 * Тема 4. Файлы
 * Тема 5. Пакеты и модули
