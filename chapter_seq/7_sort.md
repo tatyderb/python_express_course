@@ -2,8 +2,8 @@
 
 ## Источники
 
-* (Google for Education / Python Course / Sorting)[https://developers.google.com/edu/python/sorting]
-* (Sorting HowTo)[https://docs.python.org/3/howto/sorting.html]
+* [Google for Education / Python Course / Sorting](https://developers.google.com/edu/python/sorting)
+* [Sorting HowTo](https://docs.python.org/3/howto/sorting.html)
 
 ## Сравнение
 
