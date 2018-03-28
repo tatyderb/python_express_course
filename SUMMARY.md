@@ -22,7 +22,12 @@
   * [Задачи](chapter_seq/seq_tasks.md)
 * Тема 3. Исключения
 * Тема 4. Файлы
-* Тема 5. Пакеты и модули
+* [Тема 5. Пакеты и модули](chapter_mod/README.md)
+  * [Что такое модуль](chapter_mod/1_import.md)
+  * [Пространство имен](chapter_mod/2_module.md)
+  * [Пакеты](chapter_mod/3_package.md)
+  * [Вопросы](chapter_mod/all_quiz.md)
+  * [Задачи](chapter_mod/tasks.md)
 * [Тема 10. Генераторы](chapter_generators/README.md)
   * [Итераторы](chapter_generators/1-iterators.md)
   * [Генераторы](chapter_generators/2-function-generators.md)
