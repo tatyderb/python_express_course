@@ -101,7 +101,7 @@ $ python3 examples/1_syspath.py
 ['/ABC/chapter_mod/examples', ...]
 ```
 
-Если все файлы вашей программы в одном каталоге, то они всегда найдутся.
+**Если все файлы вашей программы в одном каталоге, то они всегда найдутся.**
 
 Осторожно! Не переопределите нужные модули, модулями в домашнем каталоге (если вы этого не хотите).
 
@@ -139,3 +139,19 @@ $ python3 examples/1_syspath.py
 * в одном каталоге - не делайте так! (исключение .py и .pyc)
 
 [distutils](https://docs.python.org/3/library/distutils.html) - пакет для сборки и установки модулей ([небольшой перевод статьи на русский](http://python-lab.blogspot.ru/2012/07/python-201-distutils.html))
+
+## Запуск модуля как модуля
+
+Для запуска файла как модуля питона запустите интерпретатор с ключом **-m** и пишите файл без расширения. Т.е. файл `1_syspath.py` мы запишем как `1_syspath`
+
+Обратите внимание, как изменилось содержимое sys.path
+
+```python
+$ python3 -m 1_syspath
+['', '/cygdrive/c/Users/taty/GitBook/Library/tatyderb/python-express-course/chapter_mod/examples/C', '/cygdrive/c/Users/taty/GitBook/Library/tatyderb/python-express-course/chapter_mod/examples/\\Python27', '/usr/lib/python36.zip', '/usr/lib/python3.6', '/usr/lib/python3.6/lib-dynload', '/usr/lib/python3.6/site-packages']
+```
+и
+```python
+$ python3 1_syspath.py
+['/cygdrive/c/Users/taty/GitBook/Library/tatyderb/python-express-course/chapter_mod/examples', '/cygdrive/c/Users/taty/GitBook/Library/tatyderb/python-express-course/chapter_mod/examples/C', '/cygdrive/c/Users/taty/GitBook/Library/tatyderb/python-express-course/chapter_mod/examples/\\Python27', '/usr/lib/python36.zip', '/usr/lib/python3.6', '/usr/lib/python3.6/lib-dynload', '/usr/lib/python3.6/site-packages']
+```

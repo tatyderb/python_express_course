@@ -1,5 +1,6 @@
 import sys
 import b
+import d
 
 print(sys.path)
 
