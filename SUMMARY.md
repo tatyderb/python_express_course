@@ -26,6 +26,7 @@
   * [Что такое модуль](chapter_mod/1_import.md)
   * [Пространство имен](chapter_mod/2_module.md)
   * [Пакеты](chapter_mod/3_package.md)
+  * [Дополнительные возможности](chapter_mod/4_advanced.md)
   * [Вопросы](chapter_mod/all_quiz.md)
   * [Задачи](chapter_mod/tasks.md)
 * [Тема 10. Генераторы](chapter_generators/README.md)
@@ -39,7 +40,17 @@
   * [Атрибуты и методы класса. Статические методы](chapter_oop/oop_static.md)
   * [Наследование и полиморфизм](chapter_oop/oop_inheritance.md)
   * [Области видимости и пространства имен](chapter_oop/oop_names.md) - 
-  * [Перегрузка операторов](chapter_oop/oop_override.md) - Лутц, гл.29
+  * [Перегрузка операторов](chapter_oop/oop_override.md)
+    * [все методы](chapter_oop/oop_override1.md) - таблица методов и операторов
+    * [итераторы](chapter_oop/oop_override2.md) - a\[i\], next, iter
+    * [доступ к атрибутам](chapter_oop/oop_override3.md) - объект.атрибут, ограничение прав доступа
+    * [строки](chapter_oop/oop_override4.md) - преобразуем объект в строку
+    * [арифметические операции](chapter_oop/oop_override5.md)
+    * [\_\_call\_\_](chapter_oop/oop_override6.md)
+    * [объект в строку](chapter_oop/oop_override7.md)
+    * [\_\_bool\_\_, \_\_len\_\_, \_\_del\_\_](chapter_oop/oop_override8.md)
+    * [Контрольные вопросы](chapter_oop/oop_override_quiz.md)
+    * [Задачи](chapter_oop/oop_override_tasks.md)
   * [Задачи](chapter_oop/oop_tasks.md)
 * [Тема 12. ООП подробнее](chapter_oop_advanced/README.md)
   * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_

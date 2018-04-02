@@ -39,7 +39,7 @@ circle = [1, 2, 15]                  # list
 circle = dict(x=36, y=77, radius=8)  # dict
 ```
 * list
-  * нет доступа к circle['x'],
+  * нет доступа к circle\['x'\],
   * можно сделать circle.sort()
 * dict - решает проблемы из list, но
   * еще нет защиты от отрицательного радиуса,
