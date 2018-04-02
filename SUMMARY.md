@@ -47,15 +47,18 @@
     * [строки](chapter_oop/oop_override4.md) - преобразуем объект в строку
     * [арифметические операции](chapter_oop/oop_override5.md)
     * [\_\_call\_\_](chapter_oop/oop_override6.md)
-    * [объект в строку](chapter_oop/oop_override7.md)
+    * [сравнение](chapter_oop/oop_override7.md)
     * [\_\_bool\_\_, \_\_len\_\_, \_\_del\_\_](chapter_oop/oop_override8.md)
     * [Контрольные вопросы](chapter_oop/oop_override_quiz.md)
     * [Задачи](chapter_oop/oop_override_tasks.md)
   * [Задачи](chapter_oop/oop_tasks.md)
 * [Тема 12. ООП подробнее](chapter_oop_advanced/README.md)
   * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
+* Стандартная библиотека
+  * [json]()  
 * Тема 13. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
 * Ассорти
+  * [\*args, \*\*kwargs](https://lancelote.gitbooks.io/intermediate-python/content/book/args_and_kwargs.html)
   * [format](https://pyformat.info/)
   * [PEP-8](https://www.python.org/dev/peps/pep-0008/) [RU](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
 
