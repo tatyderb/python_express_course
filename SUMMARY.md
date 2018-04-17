@@ -55,6 +55,10 @@
 * [Тема 12. ООП подробнее](chapter_oop_advanced/README.md)
   * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
 * Стандартная библиотека
+  * Работа с временем и датами
+    * [time, datatime, calendar](https://pymotw.com/2/datetime/)
+    * [задачи](chapter_stdlib/time_tasks.md)
+  * Работа с файлами
   * [json]()  
 * Тема 13. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
 * Ассорти
