@@ -57,7 +57,7 @@
   * [Вызов методов базового класса](chapter_oop_advanced/oop_super.md)
 * Стандартная библиотека
   * Работа с временем и датами
-    * [time, datatime, calendar](https://pymotw.com/2/datetime/)
+    * [time, datatime, calendar](chapter_stdlib/time.md)
     * [задачи](chapter_stdlib/time_tasks.md)
   * Работа с файлами
     * [json]()  
