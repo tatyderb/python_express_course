@@ -58,6 +58,7 @@
 * Стандартная библиотека
   * Работа с временем и датами
     * [time, datatime, calendar](chapter_stdlib/time.md)
+    * [draft](chapter_stdlib/time.md)
     * [задачи](chapter_stdlib/time_tasks.md)
   * Работа с файлами
     * [json]()  
