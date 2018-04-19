@@ -56,9 +56,8 @@
   * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
   * [Вызов методов базового класса](chapter_oop_advanced/oop_super.md)
 * Стандартная библиотека
-  * Работа с временем и датами
-    * [time, datatime, calendar](chapter_stdlib/time.md)
-    * [draft](chapter_stdlib/time.md)
+  * [Работа с временем и датами](chapter_stdlib/time.md)
+    * [time](chapter_stdlib/time_time.md)
     * [задачи](chapter_stdlib/time_tasks.md)
   * Работа с файлами
     * [json]()  
