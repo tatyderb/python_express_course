@@ -10,6 +10,7 @@
 
 ## time
 Таблица преобразования типов:
+
 |From \ To | timestamp | time tuple | string |
 |-|-|-|-|
 | timestamp |-| gmtime (UTC) <br/> localtime (local time)|-|
