@@ -59,10 +59,14 @@
   * [Работа с временем и датами](chapter_stdlib/time.md)
     * [time](chapter_stdlib/time_time.md)
     * [datetime](chapter_stdlib/time_datetime.md)
+    * [calendar]() - TODO
     * [задачи](chapter_stdlib/time_tasks.md)
   * Работа с файлами
-    * [json]()  
-  * Логирование
+    * [json](chapter_stdlib/json.md)
+  * Обвязка 
+    * [Аргументы командной строки](chapter_stdlib/argparse.md)
+    * [Файл конфигурации](chapter_stdlib/cfg.md)
+    * [Логирование](chapter_stdlib/logger.md)
   * C extensions
   * Многопоточность
   * Сети
