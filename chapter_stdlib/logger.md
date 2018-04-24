@@ -1,11 +1,38 @@
 # Логирование
 
+**Логирование** - означает запись событий, которые случились во время работы программы.
+Программисты пишут логирующие вызовы, чтобы показать, что случились определенные события.
+Событие состоит из сообщения-описания и каких-то данных.
+Событию так же приписывают важность или уровень(severity или level).
+
 ## Источники
 
 * [Logging Cookbook](https://docs.python.org/3/howto/logging-cookbook.html)
 * [PEP 282 -- A Logging System](https://www.python.org/dev/peps/pep-0282/)
-* [Logging HOWTO](https://docs.python.org/3/howto/logging.htm)
+* [Logging HOWTO](https://docs.python.org/3/howto/logging.html)
 * Python Cookbook
+
+## Логирование - проще не бывает
+
+```python
+import logging
+logging.warning('Watch out!')  # will print a message to the console
+logging.info('I told you so')  # will not print anything
+```
+На консоль будет напечатано `WARNING:root:Watch out!`. Второе сообщение не будет напечатано, 
+потому что по умолчанию выставлен уровень WARNING.
+
+## Логируем в файл
+
+Для логирования в файл определим имя этого файла. Например, `example.log`
+
+```python
+import logging
+logging.basicConfig(filename='example.log',level=logging.DEBUG)
+logging.debug('This message should go to the log file')
+logging.info('So should this')
+logging.warning('And this, too')
+```
 
 ## Логирование в простом скрипте
 
