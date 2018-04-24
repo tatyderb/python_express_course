@@ -129,14 +129,14 @@ def func():
     log.critical('A Critical Error!')
     log.debug('A debug message')
 ```
-With this configuration, no logging will occur by default. For example:
+В этой конфигурации по умолчанию нет ни одного логера (и не будет логирования!):
+
 ```python
 >>> import somelib
 >>> somelib.func()
 >>>
 ```
-However, if the logging system gets configured, log messages will start to appear. For
-example:
+Однако, как только логирующая система будет сконфигурирована, начнут появляться сообщения для лога:
 ```python
 >>> import logging
 >>> logging.basicConfig()
@@ -145,24 +145,18 @@ CRITICAL:somelib:A Critical Error!
 >>>
 ```
 
-Libraries present a special problem for logging, since information about the environment
-in which they are used isn’t known. As a general rule, you should never write
-library code that tries to configure the logging system on its own or which makes assumptions
-about an already existing logging configuration. Thus, you need to take great
-care to provide isolation.
+Библиотеки - это особый случай логирования, потому что неизвестно, в каком окружении будет работать библиотека.
+В общем случае, не стоит писать библиотеку так, чтобы она сама конфигурировала логирующую систему, 
+или делала какие-то предположения о существующей конфигурации логера. Лучше позаботьтесь об изоляции.
 
-The call to getLogger(__name__) creates a logger module that has the same name as
-the calling module. Since all modules are unique, this creates a dedicated logger that is
-likely to be separate from other loggers.
+Вызов **getLogger(\_\_name\_\_)** создает объект логера с тем же именем, что и вызывающий модуль. 
+Так как все модули имеют уникальные имена, получаем специальный объект логера, отделенный от других логеров.
 
-The log.addHandler(logging.NullHandler()) operation attaches a null handler to
-the just created logger object. A null handler ignores all logging messages by default.
-Thus, if the library is used and logging is never configured, no messages or warnings
-will appear.
+Операция **log.addHandler(logging.NullHandler())**  - привязывает null handler к только что созданному объекту логера.
+Этот null handler по умолчанию игнорирует все логирующие сообщения. Таким образом, 
+если библиотека используется, но логер не был сконфигурирован, никакие сообщения или предупреждения никуда не будут записаны.
 
-One subtle feature of this recipe is that the logging of individual libraries can be independently
-configured, regardless of other logging settings. For example, consider the
-following code:
+Стоит конфигурировать логер отдельной библиотеке независимо от других настроек логирования. Например:
 
 ```python
 >>> import logging
@@ -176,9 +170,8 @@ CRITICAL:somelib:A Critical Error!
 CRITICAL:somelib:A Critical Error!
 DEBUG:somelib:A debug message
 ```
-Here, the root logger has been configured to only output messages at the ERROR level or
-higher. However, the level of the logger for somelib has been separately configured to
-output debugging messages. That setting takes precedence over the global setting.
 
-The ability to change the logging settings for a single module like this can be a useful
-debugging tool, since you don’t have to change any of the global loggin
+Здесь корневой логер был настроен только чтобы пропускать сообщения с уровнем ERROR или выше. 
+Однако, у логера модуля somelib был установлен уровень DEBUG. Локальные настройки более приоритетны, чем глобальные.
+
+Эту особенность можно использовать для отладки отдельной библиотеки, не влючая отладку других частей.
