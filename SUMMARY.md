@@ -67,6 +67,8 @@
     * [Аргументы командной строки](chapter_stdlib/argparse.md)
     * [Файл конфигурации](chapter_stdlib/cfg.md)
     * [Логирование](chapter_stdlib/logger.md)
+    * [Логирование примеры](chapter_stdlib/logger_cookbook.md)
+    * [Задачи](chapter_stdlib/logger_tasks.md)
   * C extensions
   * Многопоточность
   * Сети
