@@ -75,7 +75,7 @@
     * [Логирование](chapter_stdlib/logger.md)
     * [Логирование примеры](chapter_stdlib/logger_cookbook.md)
     * [Задачи](chapter_stdlib/logger_tasks.md)
-  * C extensions
+  * [C extensions](chapter_stdlib/c.md)
   * Многопоточность
   * Сети
   * Тестирование
