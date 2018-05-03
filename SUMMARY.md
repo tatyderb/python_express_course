@@ -37,6 +37,7 @@
 * [Тема 11. Объектно-ориентированное программирование](chapter_oop/README.md)
   * [Термины. Создание классов](chapter_oop/oop_terms.md)
   * [Ограничение прав доступа](chapter_oop/oop_encapsulation.md) - Лутц гл 30 (Псевдочастные имена \_x. Искажения \_\_x.)
+     * Расширение property в дочернем классе - рецепты 8.8
   * [Атрибуты и методы класса. Статические методы](chapter_oop/oop_static.md)
   * [Наследование и полиморфизм](chapter_oop/oop_inheritance.md)
   * [Области видимости и пространства имен](chapter_oop/oop_names.md) - 
@@ -53,8 +54,12 @@
     * [Задачи](chapter_oop/oop_override_tasks.md)
   * [Задачи](chapter_oop/oop_tasks.md)
 * [Тема 12. ООП подробнее](chapter_oop_advanced/README.md)
-  * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
+  * [Шаблоны проектрирования](chapter_oop_advanced/oop_patterns.md)
   * [Вызов методов базового класса](chapter_oop_advanced/oop_super.md)
+  * [Множественное наследование](chapter_oop_advanced/oop_multiple_inheritance.md)
+  * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
+    * Делегация доступа к атрибутам при композиции - Рецепты, 8.15
+  * [Связанные методы](chapter_oop_advanced/oop_bounded_method.md)
 * Стандартная библиотека
   * [Работа с временем и датами](chapter_stdlib/time.md)
     * [time](chapter_stdlib/time_time.md)
@@ -63,6 +68,7 @@
     * [задачи](chapter_stdlib/time_tasks.md)
   * Работа с файлами
     * [json](chapter_stdlib/json.md)
+    * TODO
   * Обвязка 
     * [Аргументы командной строки](chapter_stdlib/argparse.md)
     * [Файл конфигурации](chapter_stdlib/cfg.md)
@@ -73,6 +79,7 @@
   * Многопоточность
   * Сети
   * Тестирование
+  * Случайные числа
 * Декораторы  
 * Тема 13. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
 * Ассорти
