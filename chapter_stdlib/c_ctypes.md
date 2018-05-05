@@ -11,6 +11,7 @@
 ### Таблица типов
 
 | ctypes type | C type | Python type |
+|---|---|---|
 | c\_bool | \_Bool | bool |
 | c\_char | char | 1-character bytes object |
 | c\_wchar | wchar\_t | 1-character string |

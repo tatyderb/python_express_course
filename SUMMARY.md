@@ -78,7 +78,7 @@
   * [C extensions](chapter_stdlib/c.md)
     * [ctypes](chapter_stdlib/c_ctypes.md)
     * [swig](chapter_stdlib/c_swig.md)
-    * [c\/python API](chapter_stdlib/c_python_api.md)
+    * [c/python API](chapter_stdlib/c_python_api.md)
     * [cython](chapter_stdlib/c_cython.md)
     * Fortran
     * Matlab

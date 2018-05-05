@@ -6,7 +6,7 @@
 
 Обычно его не используют, ибо сложно. Но если у вас много языков, откуда нужно доступаться к С-коду, то используйте SWIG.
 
-Пример из (SWIG tutorial)[http://www.swig.org/tutorial.html]
+Пример из [SWIG tutorial](http://www.swig.org/tutorial.html)
 
 C-файл `example.c` содержит разные функции и переменные:
 ```python
