@@ -82,7 +82,11 @@
     * [cython](chapter_stdlib/c_cython.md)
     * Fortran
     * Matlab
-  * Многопоточность
+  * [Многопоточность](chapter_stdlib/ipc.md)
+    * [Thread](chapter_stdlib/ipc_thread.md)
+    * [Subprocess](chapter_stdlib/ipc_subprocess.md)
+    * [Process](chapter_stdlib/ipc_multiprocessing.md)
+    * [asyncio](chapter_stdlib/ipc_async.md)
   * Сети
   * Тестирование
   * Случайные числа
