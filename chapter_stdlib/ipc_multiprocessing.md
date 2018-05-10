@@ -71,6 +71,7 @@ Available on Unix platforms which support passing file descriptors over Unix pip
 ### exitcode
 
 | Выход из дочернего процесса | exitcode этого процесса |
+|--|-|
 | `return n` | 0 |
 | `return` | 0 |
 | `sys.exit(n)` | число n |

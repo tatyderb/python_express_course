@@ -235,10 +235,3 @@ https://pymotw.com/3/subprocess/
 Interacting with Another Command и далее
 
 Посмотреть кукбуки
-
-
-## Синхронизация на thread
-
-### Lock
-
-### RLock
