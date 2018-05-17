@@ -60,7 +60,9 @@
   * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
     * Делегация доступа к атрибутам при композиции - Рецепты, 8.15
   * [Связанные методы](chapter_oop_advanced/oop_bounded_method.md)
+* [Декораторы](chapter_oop_advanced/decorators.md)
 * Стандартная библиотека
+  * Случайные числа
   * [Работа с временем и датами](chapter_stdlib/time.md)
     * [time](chapter_stdlib/time_time.md)
     * [datetime](chapter_stdlib/time_datetime.md)
@@ -88,14 +90,16 @@
     * [Process](chapter_stdlib/ipc_multiprocessing.md)
     * [asyncio](chapter_stdlib/ipc_async.md)
   * Сети
-  * Тестирование
-  * Случайные числа
-* Декораторы  
+  * Инструменты разработки
+    * Тестирование
+    * Отладка
+    * Виртуальное окружение
 * Тема 13. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
 * Ассорти
   * [\*args, \*\*kwargs](https://lancelote.gitbooks.io/intermediate-python/content/book/args_and_kwargs.html)
   * [format](https://pyformat.info/)
   * [PEP-8](https://www.python.org/dev/peps/pep-0008/) [RU](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
+  * кеширование фукнций (рассказать еще где применять нельзя)
 
   
 
