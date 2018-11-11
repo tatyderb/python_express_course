@@ -61,7 +61,7 @@ finally:
 
 ## Не пойманное исключение
 
-```python {.line-numbers}
+```python
 def foo(a):
     x = 5 / a
     print(x, a)
@@ -216,7 +216,7 @@ print('После блока обработки исключений')
 
 Поймаем исключение ZeroDivisionError в функции qqq, а IndexError в функции bzz.
 
-```python {.line-numbers}
+```python
 import traceback
 import sys
 
