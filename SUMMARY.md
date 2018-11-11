@@ -20,7 +20,8 @@
   * [Словари](chapter_seq/6_dict.md)
   * [Сортировка](chapter_seq/7_sort.md)
   * [Задачи](chapter_seq/seq_tasks.md)
-* [Тема 3. Исключения](https://lancelote.gitbooks.io/intermediate-python/content/book/exceptions.html)
+* [Тема 3. Исключения](https://pavel-karateev.gitbook.io/intermediate-python/sintaksis/exceptions)
+  * [Обработка и генерация исключений](chapter_exception/1_exception.md)
 * Тема 4. Файлы
 * [Тема 5. Пакеты и модули](chapter_mod/README.md)
   * [Что такое модуль](chapter_mod/1_import.md)

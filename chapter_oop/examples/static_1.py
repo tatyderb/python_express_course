@@ -15,8 +15,14 @@ class A(object):
         return x * k
         
     def a_foo(self, k):
-        self.x = common_foo(self.x, k)
-    
+        self.x = __class__.common_foo(self.x, k)
+        
+    def func_foo(x, k):
+        return x * k
+
+    def a_func_foo(self, k):
+        self.x = __class__.func_foo(self.x, k)
+        
 a1 = A(1)
 print('a1 =', a1)
 
@@ -29,3 +35,8 @@ print('z =', z)
 a1.a_foo(5)
 print('a1 =', a1)
 
+z = A.func_foo(3, 4)
+print('z =', z)
+
+a1.a_func_foo(5)
+print('a1 =', a1)
