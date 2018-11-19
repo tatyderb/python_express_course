@@ -40,7 +40,7 @@
   * [pathlib](chapter_file/5_pathlib.md)
   * Лутц, глава 36 Юникод и строки байтов
   * Различные типы файлов: csv, json, xml
-  * [Задачи](tasks_file.md)
+  * [Задачи](chapter_file/tasks_file.md)
 * [Тема 5. Пакеты и модули](chapter_mod/README.md)
   * [Что такое модуль](chapter_mod/1_import.md)
   * [Пространство имен](chapter_mod/2_module.md)
@@ -55,16 +55,16 @@
   * [Примеры и задачи урока](chapter_generators/tasks_generators.md)
 * [Тема 11. Объектно-ориентированное программирование](chapter_oop/README.md)
   * [Термины. Создание классов](chapter_oop/oop_terms.md)
-  * [Ограничение прав доступа](chapter_oop/oop_encapsulation.md) - Лутц гл 30 (Псевдочастные имена \_x. Искажения \_\_x.)
-     * Расширение property в дочернем классе - рецепты 8.8
+  * [Ограничение прав доступа](chapter_oop/oop_encapsulation.md)
+    * Расширение property в дочернем классе - рецепты 8.8
   * [Атрибуты и методы класса. Статические методы](chapter_oop/oop_static.md)
   * [Наследование и полиморфизм](chapter_oop/oop_inheritance.md)
-  * [Области видимости и пространства имен](chapter_oop/oop_names.md) - 
+  * [Области видимости и пространства имен](chapter_oop/oop_names.md)
   * [Перегрузка операторов](chapter_oop/oop_override.md)
-    * [все методы](chapter_oop/oop_override1.md) - таблица методов и операторов
-    * [итераторы](chapter_oop/oop_override2.md) - a\[i\], next, iter
-    * [доступ к атрибутам](chapter_oop/oop_override3.md) - объект.атрибут, ограничение прав доступа
-    * [строки](chapter_oop/oop_override4.md) - преобразуем объект в строку
+    * [все методы](chapter_oop/oop_override1.md)
+    * [итераторы](chapter_oop/oop_override2.md)
+    * [доступ к атрибутам](chapter_oop/oop_override3.md)
+    * [строки](chapter_oop/oop_override4.md)
     * [арифметические операции](chapter_oop/oop_override5.md)
     * [\_\_call\_\_](chapter_oop/oop_override6.md)
     * [сравнение](chapter_oop/oop_override7.md)
@@ -76,7 +76,7 @@
   * [Шаблоны проектрирования](chapter_oop_advanced/oop_patterns.md)
   * [Вызов методов базового класса](chapter_oop_advanced/oop_super.md)
   * [Множественное наследование](chapter_oop_advanced/oop_multiple_inheritance.md)
-  * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md) @property, \_\_slots\_\_
+  * [Ограничение прав доступа](chapter_oop_advanced/oop_encapsulation.md)
     * Делегация доступа к атрибутам при композиции - Рецепты, 8.15
   * [Связанные методы](chapter_oop_advanced/oop_bounded_method.md)
 * [Декораторы](chapter_oop_advanced/decorators.md)
@@ -85,7 +85,7 @@
   * [Работа с временем и датами](chapter_stdlib/time.md)
     * [time](chapter_stdlib/time_time.md)
     * [datetime](chapter_stdlib/time_datetime.md)
-    * [calendar]() - TODO
+    * calendar
     * [задачи](chapter_stdlib/time_tasks.md)
   * Работа с файлами
     * [json](chapter_stdlib/json.md)
@@ -113,12 +113,10 @@
     * Тестирование
     * Отладка
     * Виртуальное окружение
-* Тема 13. Python  и Tkinker (Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker)
+* Тема 13. Python  и Tkinker \(Sammerfield, Pithon in Practice. Chapter 7 Graphical User Interface with Python and Tkinker\)
 * Ассорти
   * [\*args, \*\*kwargs](https://lancelote.gitbooks.io/intermediate-python/content/book/args_and_kwargs.html)
   * [format](https://pyformat.info/)
-  * [PEP-8](https://www.python.org/dev/peps/pep-0008/) [RU](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
-  * кеширование фукнций (рассказать еще где применять нельзя)
-
-  
+  * [PEP-8](https://www.python.org/dev/peps/pep-0008/)
+  * кеширование фукнций \(рассказать еще где применять нельзя\)
 
