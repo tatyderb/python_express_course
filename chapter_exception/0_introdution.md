@@ -12,3 +12,7 @@
 
 * [Intermediate Python - Exceptions](https://pavel-karateev.gitbook.io/intermediate-python/sintaksis/exceptions) (RU)
 
+Добавить часть про использование исключений
+* Лутц 
+
+
