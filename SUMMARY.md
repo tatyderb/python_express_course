@@ -28,9 +28,19 @@
   * [raise](chapter_exception/5_raise.md)
   * [Свой класс исключений](chapter_exception/6_class.md)
   * [Тестирование](chapter_exception/7_assert.md)
+  * Использование исключений - Лутц, глава 35 
   * [Заключение](chapter_exception/7_summary.md)
   * [Задачи](chapter_exception/8_tasks.md)
-* Тема 4. Файлы
+* [Тема 4. Файлы](chapter_file/0_introduction.md)
+  * [open из Intermediate Python](chapter_file/1_ip_openh.md)
+  * [open, close](chapter_file/1_open.md)
+  * [with .. as](chapter_file/2_withas.md)
+  * [Архивация](chapter_file/3_tgz.md)
+  * [path](chapter_file/4_path.md)
+  * [pathlib](chapter_file/5_pathlib.md)
+  * Лутц, глава 36 Юникод и строки байтов
+  * Различные типы файлов: csv, json, xml
+  * [Задачи](tasks_file.md)
 * [Тема 5. Пакеты и модули](chapter_mod/README.md)
   * [Что такое модуль](chapter_mod/1_import.md)
   * [Пространство имен](chapter_mod/2_module.md)
