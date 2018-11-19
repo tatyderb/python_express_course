@@ -34,7 +34,7 @@
 * [Тема 4. Файлы](chapter_file/0_introduction.md)
   * [open из Intermediate Python](chapter_file/1_ip_open.md)
   * [open, close](chapter_file/1_open.md)
-  * [with .. as](chapter_file/2_withas.md)
+  * [with .. as](chapter_file/2_ioexamples.md)
   * [Архивация](chapter_file/3_tgz.md)
   * [path](chapter_file/4_path.md)
   * [pathlib](chapter_file/5_pathlib.md)
