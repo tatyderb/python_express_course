@@ -119,4 +119,5 @@
   * [format](https://pyformat.info/)
   * [PEP-8](https://www.python.org/dev/peps/pep-0008/)
   * кеширование фукнций \(рассказать еще где применять нельзя\)
+* [Задачи](zadachi.md)
 
