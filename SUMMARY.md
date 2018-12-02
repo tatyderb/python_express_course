@@ -38,9 +38,9 @@
   * [Архивация](chapter_file/3_tgz.md)
   * [path](chapter_file/4_path.md)
   * [pathlib](chapter_file/5_pathlib.md)
+  * [Задачи](chapter_file/tasks_file.md)
   * Лутц, глава 36 Юникод и строки байтов
   * Различные типы файлов: csv, json, xml
-  * [Задачи](chapter_file/tasks_file.md)
 * [Тема 5. Пакеты и модули](chapter_mod/README.md)
   * [Что такое модуль](chapter_mod/1_import.md)
   * [Пространство имен](chapter_mod/2_module.md)
