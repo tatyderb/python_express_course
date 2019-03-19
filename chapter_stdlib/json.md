@@ -398,3 +398,34 @@ def decode_complex(dct):
 >>> type(z)
 <class 'complex'>
 ```
+
+Даже если объект состоит из набора таких данных, то этот подход продолжет работать. Пусть в файле лежит список комплексных чисел:
+```python
+[
+  {
+    "__complex__":true,
+    "real":42,
+    "imag":36
+  },
+  {
+    "__complex__":true,
+    "real":64,
+    "imag":11
+  }
+]
+```
+Восстановим их как раньше:
+```python
+>>> with open("complex_data.json") as complex_data:
+...     data = complex_data.read()
+...     numbers = json.loads(data, object_hook=decode_complex)
+... 
+>>> numbers
+[(42+36j), (64+11j)]
+```
+
+# Задача
+
+Дописать в проект игры save и load.
+
+Можно в каждом классе реализовать функцию to_json и статический метод from_json.
