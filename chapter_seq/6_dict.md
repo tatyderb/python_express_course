@@ -249,3 +249,52 @@ Myanmar Naypyidaw
 Mongolia Ulaanbaatar
 China Beijing
 ```
+
+## defaultdict
+
+Даны пары город и страна. Нужно построить словарь страна: список городов. 
+
+```python
+from collections import defaultdict
+
+colours = (
+    ('Yasoob', 'Yellow'),
+    ('Ali', 'Blue'),
+    ('Arham', 'Green'),
+    ('Ali', 'Black'),
+    ('Yasoob', 'Red'),
+    ('Ahmed', 'Silver'),
+)
+
+favourite_colours = defaultdict(list)
+
+for name, colour in colours:
+    favourite_colours[name].append(colour)
+
+print(favourite_colours)
+
+# Вывод:
+# defaultdict(<type 'list'>,
+#    {'Arham': ['Green'],
+#     'Yasoob': ['Yellow', 'Red'],
+#     'Ahmed': ['Silver'],
+#     'Ali': ['Blue', 'Black']
+# })
+```
+
+Другим популярным случаем использования defaultdict является добавление элементов в список внутри словаря. Если ключ не существует в словаре, то вы упрётесь в KeyError. defaultdict позволяет обойти эту проблему аккуратным образом. Для начала, позвольте привести пример использования dict с исключением KeyError, а затем мы посмотрим на пример с defaultdict.
+
+Ошибка:
+```python
+some_dict = {}
+some_dict['colours']['favourite'] = "yellow"
+# Вызывает KeyError: 'colours'
+```
+Решение:
+```python
+import collections
+tree = lambda: collections.defaultdict(tree)
+some_dict = tree()
+some_dict['colours']['favourite'] = "yellow"
+# Работает без ошибок
+```
